@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Intestazione della pagina */
+
+header{
+    width: 100%;
+    height: 80px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Logo e Info */
+.logo-info{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.container-logo-info{
+    display: flex;
+    /* align-items: center; */
+    margin-left: 20px;
+}
+
+.container-logo-info img,.perchè-dropbox,.funzioni,.costo{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+/* DX */
+/* Logo e Info */
+.logo-info-dx{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.container-logo-info-dx a,button{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-logo-info-dx button{
+    background-color: rgb(17, 17, 252);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+/* Parametri main */
+
+.prova-gratuita{
+    background-color: rgb(175, 203, 240);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titolo{
+    width: 50%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.titolo h1{
+    font-size: 50px;
+}
+
+.proposta-cliente{
+    width: 55%;
+    height: 400px;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 350px;
+}
+
+.proposta-cliente p{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    text-align: left;
+}
+
+.annullamento{
+    color: black;
+    text-decoration: none;
+}
+
+.proposta-cliente button{
+    background-color: rgb(17, 17, 252);
+    color: white;
+    padding: 5px;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.arrow{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+hr{
+    margin-top: 100px;
+}
+
+
+/* Piani mensili */
+
+.piani-mensili{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.piano-business{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.piano-business h1{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.fatturazione{
+    display: flex;
+    font-size: 13px;
+}
+
+.mensile{
+    margin-right: 40px;
+}
+
+.tre-piani{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.professional{
+    width: 18%;
+    height: 800px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+.solo{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.tipologia{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.tipologia h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.prezzo-mese{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.mese{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    color: rgb(128, 124, 124);
+    font-size: 14px;
+}
+
+.numero-utente{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.spazio{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.premium{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.prova button{
+    color: white;
+    background-color: rgb(17, 17, 252);
+    margin-top: 40px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.compra{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.compra hr{
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.punti-salienti{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* ADVANCED */
+.advanced{
+    width: 18%;
+    height: 800px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+.team{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.tipologia-2{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.tipologia-2 h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.prezzo-mesi{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.utente-mese{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    color: rgb(128, 124, 124);
+    font-size: 14px;
+}
+
+.numero-utenti{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.spazi{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.premium-utenti{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.prova-mesi button{
+    color: white;
+    background-color: rgb(17, 17, 252);
+    margin-top: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.compra-mesi{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.compra-mesi hr{
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.punti-salienti2{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.GB-mesi{
+    margin-bottom: 20px;
+}
+
+.enterprise{
+    width: 18%;
+    height: 800px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+.Azienda{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.tipologia-3{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.tipologia-3 h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.contatta{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.prezzo-nullo{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    color: rgb(128, 124, 124);
+    font-size: 14px;
+}
+
+.numeri-utenti{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.soluzioni-spazi{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.premium-assistenza{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.prova-contatta button{
+    color: white;
+    background-color: rgb(17, 17, 252);
+    margin-top: 20px;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.prova-contatta button{
+    margin-left: 60px;
+}
+
+.compra-mesi-azienda{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.compra-mesi-azienda hr{
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.punti-salienti3{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+/* UFFICIO VENDITE */
+
+.ufficio-prezzi{
+    width: 60%;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+
+.gruppo{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    border-bottom: 1px solid black;
+}
+
+.enterprise-vendite{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.enter-prise{
+    font-size: 20px;
+}
+
+.enterprise-vendite button{
+    padding: 5px;
+    background-color: rgb(17, 17, 252);
+    color:white;
+}
+
+.ufficio-prezzi-vendita{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.soluzioni-personalizzate{
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+
+/* PARTNER */
+
+.partner{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.img-partner{
+    width: 40%;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+
+.contenuto-img{
+    width: 20%;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+
+.partner-dropbox{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.testo-img{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.contenuto-img button{
+    background-color: white;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
